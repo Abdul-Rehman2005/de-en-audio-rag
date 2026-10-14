@@ -1,0 +1,32 @@
+# API Framework
+fastapi==0.110.0
+uvicorn[standard]==0.28.0
+python-multipart==0.0.9
+pydantic==2.6.4
+pydantic-settings==2.2.1
+
+# Speech-to-Text
+faster-whisper==1.0.3
+
+# Embeddings & LLM
+sentence-transformers==2.5.1
+transformers==4.38.2
+torch==2.1.2
+accelerate==0.27.2
+bitsandbytes==0.42.0
+numpy<2.0.0
+
+# Vector Database
+qdrant-client==1.8.0
+
+# Knowledge Source
+wikipedia-api==0.6.0
+
+# Caching
+redis==5.0.3
+
+# HTTP client
+requests==2.31.0
+
+# Streamlit UI
+streamlit>=1.32.0
